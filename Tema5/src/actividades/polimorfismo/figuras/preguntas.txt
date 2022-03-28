@@ -1,0 +1,6 @@
+1. ¿En qué punto del código has usado polimorfismo? ¿En qué ha consistido?
+El polimorfismo en mi código ha sido usado en la clase TestFiguras, en concreto a la hora
+de mostrar el área y perímetro de cada figura instanciada dentro del array de tipo
+Shape (clase abstracta). Esto se ha podido hacer gracias a que he creado una clase llamada
+Shape que es abstracta, la cual de ella heredan métodos comunes a las demás figuras, como son
+el área y el perímetro (getArea, getPerimeter).
